@@ -14,7 +14,7 @@ do
       "3") echo "{"date": "$d","jason": "test"}"
       ;;
       "4") echo '
-{ "timestamp": "2018-05-24 23:15:07",
+[ "timestamp": "2018-05-24 23:15:07",
   "id": 0,
   "class": "connection",
   "event": "connect",
@@ -27,7 +27,7 @@ do
              "proxy": "" },
   "connection_data": { "connection_type": "tcp/ip",
                        "status": 0,
-                       "db": "bank_db" } }'
+                       "db": "bank_db" } ]'
       ;; 
    esac
 done
