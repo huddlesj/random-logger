@@ -9,13 +9,11 @@ do
    case "$instruction" in
       "1") echo "$d ERROR something happened in this execution."
       ;;
-      "2") echo "$d DEBUG first loop completed.
+      "2") echo "$d DEBUG first loop completed."
       ;;
-      "3") echo "{
-                   "date": "$d",
-                   "jason": "test"
-                 }
-            "
-      ;;           
+      "3") echo "{"date": "$d","jason": "test"}"
+      ;;
+      "*") echo 'Leslie fixed it'
+      ;; 
    esac
 done
