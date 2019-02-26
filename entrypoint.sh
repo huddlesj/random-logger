@@ -14,20 +14,28 @@ do
       "3") echo "{"date": "$d","jason": "test"}"
       ;;
       "4") echo '
-[ "timestamp": "2018-05-24 23:15:07",
-  "id": 0,
-  "class": "connection",
-  "event": "connect",
-  "connection_id": 12,
-  "account": { "user": "user",
-               "host": "localhost" },
-  "login": { "user": "user",
-             "os": "",
-             "ip": "::1",
-             "proxy": "" },
-  "connection_data": { "connection_type": "tcp/ip",
-                       "status": 0,
-                       "db": "bank_db" } ]'
+{
+	"timestamp": "2018-05-24 23:15:07",
+	"id": 0,
+	"class": "connection",
+	"event": "connect",
+	"connection_id": 12,
+	"account": {
+		"user": "user",
+		"host": "localhost"
+	},
+	"login": {
+		"user": "user",
+		"os": "",
+		"ip": "::1",
+		"proxy": ""
+	},
+	"connection_data": {
+		"connection_type": "tcp/ip",
+		"status": 0,
+		"db": "bank_db"
+	}
+}'
       ;; 
    esac
 done
