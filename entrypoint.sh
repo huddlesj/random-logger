@@ -13,7 +13,13 @@ do
       ;;
       "3") echo "$d WARN variable not in use."
       ;;
-      "4") echo "$d DEBUG first loop completed."
+      "4") echo "$d DEBUG first loop completed.
       ;;
+      "5") echo "{
+                   "date": "$d",
+                   "jason": "test"
+                 }
+            "
+      ;;           
    esac
 done
