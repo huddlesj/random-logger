@@ -9,13 +9,9 @@ do
    case "$instruction" in
       "1") echo "$d ERROR something happened in this execution."
       ;;
-      "2") echo "$d INFO takes the value and converts it to string."
+      "2") echo "$d DEBUG first loop completed.
       ;;
-      "3") echo "$d WARN variable not in use."
-      ;;
-      "4") echo "$d DEBUG first loop completed.
-      ;;
-      "5") echo "{
+      "3") echo "{
                    "date": "$d",
                    "jason": "test"
                  }
