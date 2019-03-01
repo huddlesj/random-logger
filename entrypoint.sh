@@ -13,8 +13,7 @@ do
       ;;
       "3") echo "{"date": "$d","jason": "test"}"
       ;;
-      "4") echo '
-{
+      "4") echo '{
 	"timestamp": "2018-05-24 23:15:07",
 	"id": 0,
 	"class": "connection",
