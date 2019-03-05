@@ -14,7 +14,7 @@ do
       "3") echo "{"date": "$d","jason": "test"}"
       ;;
       "4") echo '{
-	"timestamp": "2018-05-25 23:15:07",
+	"timestamp": "1551735375301",
 	"id": 0,
 	"class": "connection",
 	"event": "connect",
